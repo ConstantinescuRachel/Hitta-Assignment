@@ -4,6 +4,8 @@ import com.agoda.kakao.KRatingBar
 import com.agoda.kakao.KTextView
 import com.agoda.kakao.Screen
 import android.support.test.espresso.action.ViewActions.click
+import android.support.test.espresso.matcher.ViewMatchers.withId
+import android.support.test.espresso.matcher.ViewMatchers.withText
 import com.hitta.android.assignment.R
 
 
