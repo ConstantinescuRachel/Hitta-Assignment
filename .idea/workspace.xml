@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6c1ab98-a471-44a6-92ef-4b34823be2dd" name="Default Changelist" comment="" />
+    <list default="true" id="c6c1ab98-a471-44a6-92ef-4b34823be2dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/tests/Step2TestK.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/tests/Step2TestK.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/screen/EditReviewScreen.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="-188">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/tests/Step2TestK.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -54,7 +66,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/tests/Step2TestK.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -107,6 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="device.picker.selection" value="Pixel_3_XL_API_27" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
   </component>
   <component name="RunDashboard">
@@ -121,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android Instrumented Tests.Tests in 'com.hitta.android.assignment.main.tests'">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -182,6 +202,60 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests in 'com.hitta.android.assignment.main.tests'" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="1" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.hitta.android.assignment.main.tests" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.Tests in 'com.hitta.android.assignment.main.tests'" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -208,13 +282,15 @@
       <window_info id="Resources Explorer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Build" weight="0.32939634" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
@@ -239,8 +315,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/screen/EditReviewScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="-188">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/tests/Step2TestK.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

@@ -21,19 +21,19 @@ import java.lang.Thread.sleep
 @LargeTest
 @RunWith(AndroidJUnit4::class)
 class Step2TestK {
-    
+
     @Rule
     @JvmField
     var mActivityTestRule = ActivityTestRule(MainActivity::class.java)
-    
+
     private val reviewScreen = ReviewsScreenK()
     private val addReviewsScreen = AddReviewScreen()
     private val editReviewScreen = EditReviewScreen()
-    
-    
+
+
     //@Random click on rating Stars , Insert name and review text and Save
-    
-    
+
+
     @Test
     fun changeRatingTestK() {
         reviewScreen {
@@ -42,32 +42,32 @@ class Step2TestK {
             }
         }
         sleep(3000)
-        
+
         addReviewsScreen {
             ratingBar {
                 setRatingAt(3f)
             }
         }
-        
-        
-       
+
+
+
         editReviewScreen {
             star3 {
                 hasRating(3f)
-                
-                
+
+
             }
         }
-        
+
         sleep(3000)
         editReviewScreen {
             rateText3 {
                 hasText("It was OK")
-                
+
             }
         }
-        
-       
+
+
         editReviewScreen {
             imageButton {
                 isVisible()
@@ -76,15 +76,15 @@ class Step2TestK {
             }
         }
 
-        
-        
+
+
         reviewScreen {
             yourExperience {
                 click()
-                
+
             }
         }
-    
+
         addReviewsScreen {
             ratingBar {
                 setRatingAt(3f)
@@ -94,20 +94,19 @@ class Step2TestK {
             star3 {
                 hasRating(3f)
                 setRatingAt(5f)
-                
-                
+
+
             }
         }
-         editReviewScreen {
+        editReviewScreen {
             star5 {
                 hasRating(5f)
-                
-            
-            
+
+
             }
         }
-      
-       
+
+
 /*
        editReviewScreen {
             rateText5 {
@@ -133,49 +132,55 @@ class Step2TestK {
                 
             }
         }*/
-        
-        
+
+
         addReviewsScreen {
             name {
-                
+
                 typeText("Rachel")
-                
+
             }
         }
-        
-        
-        
+
+
+
         addReviewsScreen {
             largerTextReview {
                 typeText(
                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
                             " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
                 )
-                
+
             }
         }
-        
-        
+
+
         addReviewsScreen {
             save {
                 isDisplayed()
                 click()
             }
         }
-        
-        
+
+
         addReviewsScreen {
             dialog {
                 isDisplayed()
-                
+
             }
         }
-        
+        addReviewsScreen {
+            ok {
+                click()
+
+            }
+        }
         reviewScreen {
             smallRating {
                 isDisplayed()
             }
-            
+
+
         }
     }
 }
